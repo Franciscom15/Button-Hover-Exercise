@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button HW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button>Click me</button>
+
+</body>
+</html>
+
+
+button{
+    height: 40px;
+    width: 170px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: #FFA260;
+
+    background-color: #121212;
+    border: 2px solid #aa612c;
+    border-radius: 50px;
+
+    transition: box-shadow, 0.5s;
+    transition: border-radius ;
+}
+button:hover{
+    border-radius: 55px;
+    box-shadow: 0 15px 25px -5px #F1FF5C;
+    transform: translate(-0.25em);
+
+}
